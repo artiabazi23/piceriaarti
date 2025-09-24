@@ -31,7 +31,7 @@ const PizzeriaContact = () => {
                 </div>
                 <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground shadow-warm text-lg py-6 rounded-xl transition-all duration-300 hover:scale-105">
                   <Phone className="mr-2 h-5 w-5" />
-                  +355 69 XXX XXXX
+                  +389 70 XXX XXX
                 </Button>
               </CardContent>
             </Card>
@@ -91,8 +91,8 @@ const PizzeriaContact = () => {
                   </div>
                 </div>
                 <div className="text-foreground space-y-2">
-                  <p>📍 Rruga Dëshmorët e Kombit</p>
-                  <p>🏢 Qendra e Tiranës</p>
+                  <p>📍 Rruga Karposh</p>
+                  <p>🏢 Qendra e Shkupit</p>
                   <p>🅿️ Parking i disponueshëm</p>
                 </div>
               </CardContent>

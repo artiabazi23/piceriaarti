@@ -17,8 +17,8 @@ const Index = () => {
           <h3 className="text-2xl font-bold mb-4">Pizzeria Arti</h3>
           <p className="text-background/80 mb-4">Pica artizanale me dashuri, në zemër të lagjes tuaj</p>
           <div className="flex justify-center space-x-6 text-sm">
-            <span>📞 +355 69 XXX XXXX</span>
-            <span>📍 Qendra e Tiranës</span>
+            <span>📞 +389 70 XXX XXX</span>
+            <span>📍 Qendra e Shkupit</span>
             <span>⏰ 11:00 - 23:00</span>
           </div>
           <div className="mt-6 pt-6 border-t border-background/20 text-background/60 text-sm">
