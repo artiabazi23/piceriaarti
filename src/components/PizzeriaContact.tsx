@@ -91,8 +91,8 @@ const PizzeriaContact = () => {
                   </div>
                 </div>
                 <div className="text-foreground space-y-2">
-                  <p>📍 Rruga Karposh</p>
-                  <p>🏢 Qendra e Shkupit</p>
+                  <p>📍 Çekez, Kumanovë</p>
+                  <p>🏢 Qendra e Kumanovës</p>
                   <p>🅿️ Parking i disponueshëm</p>
                 </div>
               </CardContent>
