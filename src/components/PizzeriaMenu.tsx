@@ -8,7 +8,7 @@ import prosciuttoImage from "@/assets/prosciutto-pizza.jpg";
 const menuItems = [
   {
     name: "Margherita",
-    description: "Salcë domate, mozzarella e freskët, borzilok i freskët",
+    description: "Salcë domate, kackavall i freskët",
     personalPrice: "220",
     familyPrice: "450",
     image: margheritaImage,
@@ -16,35 +16,35 @@ const menuItems = [
   },
   {
     name: "Kapricoza",
-    description: "Salcë domate, mozzarella, këpurdha, proshutë, ullinj",
+    description: "Salcë domate, kackavall, këpurdha",
     personalPrice: "250",
     familyPrice: "500",
     image: quattroStagioniImage
   },
   {
     name: "Me Suxhuk dhe Këpurdha",
-    description: "Salcë domate, mozzarella, suxhuk, këpurdha",
+    description: "Salcë domate, kackavall, suxhuk, këpurdha",
     personalPrice: "250",
     familyPrice: "500",
     image: pepperoniImage
   },
   {
     name: "Tuna",
-    description: "Salcë domate, mozzarella, tuna, qepë, ullinj",
+    description: "Salcë domate, kackavall, tuna, qepë",
     personalPrice: "250",
     familyPrice: "500",
     image: vegetarianImage
   },
   {
     name: "Me Proshut",
-    description: "Salcë domate, mozzarella, proshutë cilësor",
+    description: "Salcë domate, kackavall, proshutë cilësor",
     personalPrice: "270",
     familyPrice: "550",
     image: prosciuttoImage
   },
   {
     name: "Pica Arti",
-    description: "Salcë domate, mozzarella, suxhuk, sallam, proshutë, këpurdha, ullinj",
+    description: "Salcë domate, kackavall, suxhuk, sallam, proshutë, këpurdha, ullinj",
     personalPrice: "300",
     familyPrice: "600",
     image: margheritaImage,
