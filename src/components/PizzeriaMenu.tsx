@@ -7,43 +7,57 @@ import prosciuttoImage from "@/assets/prosciutto-pizza.jpg";
 
 const menuItems = [
   {
-    name: "Margherita Klassike",
-    description: "Salcë domate, mozzarella e freskët, borzilok i freskët, vaj ulliri ekstra i virgjër",
-    price: "8€",
+    name: "Margherita",
+    description: "Salcë domate, mozzarella e freskët, borzilok i freskët",
+    personalPrice: "220",
+    familyPrice: "450",
     image: margheritaImage,
     popular: true
   },
   {
-    name: "Pepperoni Premium",
-    description: "Salcë domate, mozzarella, pepperoni cilësor, origano",
-    price: "10€",
-    image: pepperoniImage
-  },
-  {
-    name: "Vegjetariane Artizanale",
-    description: "Salcë domate, mozzarella, këpurdha, spec i kuq, ullinj, qepë e kuqe, borzilok",
-    price: "9€",
-    image: vegetarianImage
-  },
-  {
-    name: "Quattro Stagioni",
-    description: "Salcë domate, mozzarella, këpurdha, artikoka, proshutë, ullinj",
-    price: "12€",
+    name: "Kapricoza",
+    description: "Salcë domate, mozzarella, këpurdha, proshutë, ullinj",
+    personalPrice: "250",
+    familyPrice: "500",
     image: quattroStagioniImage
   },
   {
-    name: "Prosciutto e Rucola",
-    description: "Salcë domate, mozzarella, proshutë San Daniele, rucola e freskët, parmesan",
-    price: "13€",
-    image: prosciuttoImage,
+    name: "Me Suxhuk dhe Këpurdha",
+    description: "Salcë domate, mozzarella, suxhuk, këpurdha",
+    personalPrice: "250",
+    familyPrice: "500",
+    image: pepperoniImage
+  },
+  {
+    name: "Tuna",
+    description: "Salcë domate, mozzarella, tuna, qepë, ullinj",
+    personalPrice: "250",
+    familyPrice: "500",
+    image: vegetarianImage
+  },
+  {
+    name: "Me Proshut",
+    description: "Salcë domate, mozzarella, proshutë cilësor",
+    personalPrice: "270",
+    familyPrice: "550",
+    image: prosciuttoImage
+  },
+  {
+    name: "Pica Arti",
+    description: "Salcë domate, mozzarella, suxhuk, sallam, proshutë, këpurdha, ullinj",
+    personalPrice: "300",
+    familyPrice: "600",
+    image: margheritaImage,
     premium: true
   }
 ];
 
 const drinks = [
-  { name: "Ujë Natyral", price: "1€" },
-  { name: "Coca-Cola", price: "2€" },
-  { name: "Birra Artizanale Lokale", price: "3€" }
+  { name: "Ujë", price: "Falas" },
+  { name: "Coca-Cola", price: "50 den" },
+  { name: "Fanta", price: "50 den" },
+  { name: "Sprite", price: "50 den" },
+  { name: "Jogurt", price: "40 den" }
 ];
 
 const PizzeriaMenu = () => {
@@ -79,8 +93,15 @@ const PizzeriaMenu = () => {
                     Premium
                   </div>
                 )}
-                <div className="absolute top-3 right-3 bg-primary text-primary-foreground px-4 py-2 rounded-full text-lg font-bold shadow-lg">
-                  {item.price}
+                <div className="absolute top-3 right-3 bg-primary text-primary-foreground px-3 py-1 rounded-lg text-sm font-bold shadow-lg">
+                  <div className="text-center">
+                    <div className="text-xs opacity-90">Personale</div>
+                    <div className="font-bold">{item.personalPrice} den</div>
+                  </div>
+                  <div className="text-center mt-1 pt-1 border-t border-primary-foreground/20">
+                    <div className="text-xs opacity-90">Familjare</div>
+                    <div className="font-bold">{item.familyPrice} den</div>
+                  </div>
                 </div>
               </div>
               <CardContent className="p-6">
