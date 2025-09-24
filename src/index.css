@@ -8,35 +8,55 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Pizzeria Arti Design System - Warm Italian-inspired colors */
+    --background: 35 25% 97%;
+    --foreground: 25 35% 15%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 35 20% 95%;
+    --card-foreground: 25 35% 15%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 35 25% 97%;
+    --popover-foreground: 25 35% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Pizza-inspired primary colors - warm golden crust */
+    --primary: 28 85% 55%;
+    --primary-foreground: 35 25% 97%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Basil green secondary */
+    --secondary: 135 45% 45%;
+    --secondary-foreground: 35 25% 97%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted warm tones */
+    --muted: 35 15% 90%;
+    --muted-foreground: 25 20% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Tomato red accent */
+    --accent: 8 75% 55%;
+    --accent-foreground: 35 25% 97%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 35 15% 85%;
+    --input: 35 15% 90%;
+    --ring: 28 85% 55%;
 
-    --radius: 0.5rem;
+    /* Custom design tokens */
+    --pizza-crust: 32 75% 65%;
+    --pizza-sauce: 8 80% 50%;
+    --pizza-basil: 135 60% 40%;
+    --pizza-mozzarella: 35 25% 98%;
+    
+    /* Beautiful gradients */
+    --gradient-warm: linear-gradient(135deg, hsl(var(--pizza-crust)), hsl(var(--primary)));
+    --gradient-hero: linear-gradient(180deg, hsl(var(--background)), hsl(var(--muted)));
+    --gradient-pizza: linear-gradient(45deg, hsl(var(--pizza-sauce)), hsl(var(--pizza-crust)));
+    
+    /* Elegant shadows */
+    --shadow-warm: 0 10px 30px -5px hsl(var(--primary) / 0.3);
+    --shadow-pizza: 0 20px 40px -10px hsl(var(--pizza-sauce) / 0.4);
+    
+    --radius: 1rem;
 
     --sidebar-background: 0 0% 98%;
 
