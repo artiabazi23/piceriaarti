@@ -4,7 +4,7 @@ import { Clock, MapPin, Heart, Award } from "lucide-react";
 const features = [
   {
     icon: Heart,
-    title: "Me Dashuri të Madhe",
+    title: "Me Kujdes të Madh",
     description: "Çdo pica e bëjmë me zemër dhe duart tona"
   },
   {
@@ -34,7 +34,7 @@ const PizzeriaAbout = () => {
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             Na pëlqen të bëjmë pica të shijshme me kackavall të freskët dhe përbërës 
-            të mirë. Në Piceria Arti, çdo pica bëhet me kujdes dhe dashuri 
+            të mirë. Në Piceria Arti, çdo pica bëhet me kujdes dhe pastërti 
             këtu në fshatit Çekez.
           </p>
         </div>
@@ -61,7 +61,7 @@ const PizzeriaAbout = () => {
             Misioni Ynë
           </h3>
           <p className="text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Dojmë të bëjmë pica të mira për fqinjët tanë këtu në Çekez. 
+            Dojmë që klientët të jenë të kënaqur. 
             Çdo pica e bëjmë me kujdes, me kackavall të freskët dhe mish cilësor. 
             Jemi të rinj po mundohemi të hapim një biznes të vogël familjar 
             që të sjellë shijet e mira në fshatit tonë.

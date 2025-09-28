@@ -53,10 +53,8 @@ const menuItems = [
 ];
 
 const drinks = [
-  { name: "Ujë", price: "Falas" },
   { name: "Coca-Cola", price: "50 den" },
   { name: "Fanta", price: "50 den" },
-  { name: "Sprite", price: "50 den" },
   { name: "Jogurt", price: "40 den" }
 ];
 
@@ -66,11 +64,8 @@ const PizzeriaMenu = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Menyja Jonë
+            Meny:
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Çdo picë përgatitet me dashuri dhe përbërës të freskët cilësorë
-          </p>
         </div>
 
         {/* Pizza Menu */}
