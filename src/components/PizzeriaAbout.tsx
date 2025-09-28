@@ -24,7 +24,7 @@ const PizzeriaAbout = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             Pse Piceria Arti?
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl leading-relaxed mx-[190px] py-0 px-0 my-0">Na pëlqen të bëjmë pica të shijshme me kackavall të freskët dhe përbërës të mirë. Në Piceria Arti</p>
+          <p className="text-xl text-muted-foreground max-w-3xl leading-relaxed py-0 px-0 my-0 font-semibold mx-[275px] text-left">Na pëlqen të bëjmë pica të shijshme me kackavall të freskët dhe përbërës të mirë. Në Piceria Arti</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
