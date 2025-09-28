@@ -20,11 +20,11 @@ const features = [{
 const PizzeriaAbout = () => {
   return <section className="py-20 bg-muted/20">
       <div className="container mx-auto px-6">
-        <div className="text-center mb-16">
+        <div className="text-center \n">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             Pse Piceria Arti?
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl leading-relaxed py-0 px-0 my-0 font-semibold mx-[280px] text-center">Na pëlqen të bëjmë pica të shijshme me kackavall të freskët dhe përbërës të mirë. Në Piceria Arti</p>
+          <p className="text-xl text-muted-foreground max-w-3xl leading-relaxed py-0 px-0 my-0 font-semibold text-center mx-[275px]">Na pëlqen të bëjmë pica të shijshme me kackavall të freskët dhe përbërës të mirë. Në Piceria Arti</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
