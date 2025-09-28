@@ -36,7 +36,7 @@ const PizzeriaAbout = () => {
                     <IconComponent className="h-8 w-8 text-primary" />
                   </div>
                   <h3 className="text-xl font-bold text-foreground mb-4">{feature.title}</h3>
-                  <p className="text-muted-foreground leading-relaxed">{feature.description}</p>
+                  <p className="text-muted-foreground leading-relaxed font-normal">{feature.description}</p>
                 </CardContent>
               </Card>;
         })}
