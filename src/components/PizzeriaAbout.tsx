@@ -5,22 +5,22 @@ const features = [
   {
     icon: Heart,
     title: "Me Dashuri të Madhe",
-    description: "Çdo picë përgatitet me pasion dhe kujdes për detajet më të vogla"
+    description: "Çdo pica e bëjmë me zemër dhe duart tona"
   },
   {
     icon: Award,
-    title: "Përbërës Cilësorë",
-    description: "Përdorim vetëm përbërës të freskët dhe cilësorë nga furnitorë lokalë"
+    title: "Përbërës të Mirë",
+    description: "Kackavall i freskët, mish cilësor dhe perime të mira"
   },
   {
     icon: Clock,
-    title: "E Freskët Gjithmonë",
-    description: "Nga furra në tavolinën tuaj në vetëm 10-15 minuta"
+    title: "E Nxehtë Gjithmonë",
+    description: "Nga furra tek ju vetëm në 10-15 minuta"
   },
   {
     icon: MapPin,
-    title: "Në Lagjen Tuaj",
-    description: "Shërbim të shpejtë me vete dhe shpërndarje në lagje"
+    title: "Këtu në Çekez",
+    description: "Merr me vete ose të sjellim në shtëpi"
   }
 ];
 
@@ -33,9 +33,9 @@ const PizzeriaAbout = () => {
             Pse Pizzeria Arti?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Ne besojmë se pica e mirë nuk është vetëm ushqim - është një përvojë. 
-            Në Pizzeria Arti, krijojmë pica artizanale që sjellin shijen autentike 
-            italiane në zemër të lagjes tuaj.
+            Na pëlqen të bëjmë pica të shijshme me kackavall të freskët dhe përbërës 
+            të mirë. Në Pizzeria Arti, çdo pica bëhet me kujdes dhe dashuri 
+            këtu në fshatit Çekez.
           </p>
         </div>
 
@@ -61,10 +61,10 @@ const PizzeriaAbout = () => {
             Misioni Ynë
           </h3>
           <p className="text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Të sjellim në lagjen tuaj përvojën e një pizzerie autentike italiane, 
-            ku çdo picë përgatitet me përbërës të freskët cilësorë dhe me pasionin 
-            për artizanatin e vërtetë. Ne testojmë tregun me një qasje të thjeshtë 
-            por cilësore, duke ndërtuar një komunitet që vlerëson ushqimin e mirë.
+            Dojmë të bëjmë pica të mira për fqinjët tanë këtu në Çekez. 
+            Çdo pica e bëjmë me kujdes, me kackavall të freskët dhe mish cilësor. 
+            Jemi të rinj po mundohemi të hapim një biznes të vogël familjar 
+            që të sjellë shijet e mira në fshatit tonë.
           </p>
         </div>
       </div>

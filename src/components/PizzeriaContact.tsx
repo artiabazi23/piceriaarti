@@ -11,7 +11,7 @@ const PizzeriaContact = () => {
             Porosit Tani
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Pica e freskët artizanale, gati në 10-15 minuta
+            Pica të freskëta të bëna me dorë, gati për 10-15 minuta
           </p>
         </div>
 

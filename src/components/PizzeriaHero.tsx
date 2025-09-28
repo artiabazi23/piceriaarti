@@ -21,7 +21,7 @@ const PizzeriaHero = () => {
           Pizzeria Arti
         </h1>
         <p className="text-xl md:text-2xl text-pizza-mozzarella/90 mb-8 max-w-2xl mx-auto leading-relaxed drop-shadow-lg">
-          Pica artizanale të freskëta me përbërës cilësorë në zemër të lagjes tuaj
+          Pica të freskëta të bëra me dorë në fshatit Çekez
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
