@@ -11,7 +11,7 @@ const PizzeriaContact = () => {
             Porosit Tani
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Pica të freskëta të bëna me dorë, gati për 10-15 minuta
+            Shpejt dhe shijshem
           </p>
         </div>
 
@@ -121,11 +121,11 @@ const PizzeriaContact = () => {
                 <div className="text-foreground space-y-2">
                   <div className="flex justify-between">
                     <span>E Hënë - E Shtunë</span>
-                    <span className="font-semibold">10:00 - 22:00</span>
+                    <span className="font-semibold">12:00 - 22:00</span>
                   </div>
                   <div className="flex justify-between">
                     <span>E Diel</span>
-                    <span className="font-semibold">11:00 - 21:00</span>
+                    <span className="font-semibold">13:00 - 22:00</span>
                   </div>
                   <div className="mt-4 p-3 bg-primary/5 rounded-lg">
                     <p className="text-sm text-primary font-medium">⚡ Përgatitja: 10-15 minuta</p>

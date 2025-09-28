@@ -30,11 +30,11 @@ const PizzeriaAbout = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Pse Pizzeria Arti?
+            Pse Piceria Arti?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             Na pëlqen të bëjmë pica të shijshme me kackavall të freskët dhe përbërës 
-            të mirë. Në Pizzeria Arti, çdo pica bëhet me kujdes dhe dashuri 
+            të mirë. Në Piceria Arti, çdo pica bëhet me kujdes dhe dashuri 
             këtu në fshatit Çekez.
           </p>
         </div>

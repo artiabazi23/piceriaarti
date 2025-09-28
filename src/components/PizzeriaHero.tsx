@@ -18,10 +18,10 @@ const PizzeriaHero = () => {
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <h1 className="text-5xl md:text-7xl font-bold text-pizza-mozzarella mb-6 drop-shadow-2xl">
-          Pizzeria Arti
+          Piceria Arti
         </h1>
         <p className="text-xl md:text-2xl text-pizza-mozzarella/90 mb-8 max-w-2xl mx-auto leading-relaxed drop-shadow-lg">
-          Pica të freskëta të bëra me dorë në fshatit Çekez
+          Shpejt dhe shijshem
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
