@@ -29,9 +29,12 @@ const PizzeriaContact = () => {
                     <p className="text-muted-foreground">Më i shpejtë për porosi</p>
                   </div>
                 </div>
-                <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground shadow-warm text-lg py-6 rounded-xl transition-all duration-300 hover:scale-105">
+                <Button 
+                  className="w-full bg-primary hover:bg-primary/90 text-primary-foreground shadow-warm text-lg py-6 rounded-xl transition-all duration-300 hover:scale-105"
+                  onClick={() => window.open('tel:+38970587141', '_self')}
+                >
                   <Phone className="mr-2 h-5 w-5" />
-                  +389 70 XXX XXX
+                  +389 70 587 141
                 </Button>
               </CardContent>
             </Card>
@@ -55,23 +58,29 @@ const PizzeriaContact = () => {
             </Card>
 
             <div className="grid grid-cols-2 gap-4">
-              <Card className="group hover:shadow-warm transition-all duration-300 border-2 hover:border-accent/20">
+              <Card 
+                className="group hover:shadow-warm transition-all duration-300 border-2 hover:border-accent/20 cursor-pointer"
+                onClick={() => window.open('https://www.instagram.com/pizzeriaarti', '_blank')}
+              >
                 <CardContent className="p-6 text-center">
                   <div className="bg-accent/10 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-accent/20 transition-colors duration-300">
                     <Instagram className="h-6 w-6 text-accent" />
                   </div>
                   <h4 className="font-bold text-foreground mb-2">Instagram</h4>
-                  <p className="text-sm text-muted-foreground">@pizzeria.arti</p>
+                  <p className="text-sm text-muted-foreground">@pizzeriaarti</p>
                 </CardContent>
               </Card>
 
-              <Card className="group hover:shadow-warm transition-all duration-300 border-2 hover:border-accent/20">
+              <Card 
+                className="group hover:shadow-warm transition-all duration-300 border-2 hover:border-accent/20 cursor-pointer"
+                onClick={() => window.open('https://www.facebook.com/piceria.arti', '_blank')}
+              >
                 <CardContent className="p-6 text-center">
                   <div className="bg-accent/10 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-accent/20 transition-colors duration-300">
                     <Facebook className="h-6 w-6 text-accent" />
                   </div>
                   <h4 className="font-bold text-foreground mb-2">Facebook</h4>
-                  <p className="text-sm text-muted-foreground">Pizzeria Arti</p>
+                  <p className="text-sm text-muted-foreground">Piceria Arti</p>
                 </CardContent>
               </Card>
             </div>
@@ -91,8 +100,8 @@ const PizzeriaContact = () => {
                   </div>
                 </div>
                 <div className="text-foreground space-y-2">
-                  <p>📍 Çekez, Kumanovë</p>
-                  <p>🏢 Qendra e Kumanovës</p>
+                  <p>📍 Fshatit Çekez, Kumanovë</p>
+                  <p>🏢 Në fshatit Çekez</p>
                   <p>🅿️ Parking i disponueshëm</p>
                 </div>
               </CardContent>
@@ -112,11 +121,11 @@ const PizzeriaContact = () => {
                 <div className="text-foreground space-y-2">
                   <div className="flex justify-between">
                     <span>E Hënë - E Shtunë</span>
-                    <span className="font-semibold">11:00 - 23:00</span>
+                    <span className="font-semibold">10:00 - 22:00</span>
                   </div>
                   <div className="flex justify-between">
                     <span>E Diel</span>
-                    <span className="font-semibold">12:00 - 22:00</span>
+                    <span className="font-semibold">11:00 - 21:00</span>
                   </div>
                   <div className="mt-4 p-3 bg-primary/5 rounded-lg">
                     <p className="text-sm text-primary font-medium">⚡ Përgatitja: 10-15 minuta</p>
