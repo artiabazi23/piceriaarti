@@ -4,10 +4,6 @@ import pepperoniImage from "@/assets/pepperoni-pizza.jpg";
 import vegetarianImage from "@/assets/vegetarian-pizza.jpg";
 import quattroStagioniImage from "@/assets/quattro-stagioni-pizza.jpg";
 import prosciuttoImage from "@/assets/prosciutto-pizza.jpg";
-import colaImage from "@/assets/coca-cola.jpg";
-import fantaOrangeImage from "@/assets/fanta-orange.jpg";
-import fantaExoticImage from "@/assets/fanta-exotic.jpg";
-import jogurtImage from "@/assets/jogurt.jpg";
 
 const menuItems = [
   {
@@ -57,10 +53,10 @@ const menuItems = [
 ];
 
 const drinks = [
-  { name: "Coca-Cola", price: "50 den", image: colaImage },
-  { name: "Fanta Orange", price: "50 den", image: fantaOrangeImage },
-  { name: "Fanta Exotic", price: "50 den", image: fantaExoticImage },
-  { name: "Jogurt", price: "40 den", image: jogurtImage }
+  { name: "Coca-Cola", price: "50 den" },
+  { name: "Fanta Orange", price: "50 den" },
+  { name: "Fanta Exotic", price: "50 den" },
+  { name: "Jogurt", price: "40 den" }
 ];
 
 const PizzeriaMenu = () => {
@@ -113,25 +109,14 @@ const PizzeriaMenu = () => {
         </div>
 
         {/* Drinks Section */}
-        <div className="mb-16">
-          <h3 className="text-3xl font-bold text-center text-foreground mb-12">Pijet</h3>
+        <div className="bg-card rounded-3xl p-8 shadow-warm">
+          <h3 className="text-2xl font-bold text-center text-foreground mb-8">Pijet</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {drinks.map((drink, index) => (
-              <Card key={index} className="group hover:shadow-pizza transition-all duration-300 hover:-translate-y-2 overflow-hidden border-2 hover:border-primary/30">
-                <div className="relative">
-                  <img 
-                    src={drink.image} 
-                    alt={`${drink.name} - fresh drink`}
-                    className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
-                  <div className="absolute top-3 right-3 bg-primary text-primary-foreground px-3 py-1 rounded-lg text-sm font-bold shadow-lg">
-                    {drink.price}
-                  </div>
-                </div>
-                <CardContent className="p-4">
-                  <h4 className="text-lg font-bold text-foreground text-center">{drink.name}</h4>
-                </CardContent>
-              </Card>
+              <div key={index} className="flex justify-between items-center p-4 bg-muted/50 rounded-xl">
+                <span className="font-medium text-foreground">{drink.name}</span>
+                <span className="font-bold text-primary text-lg">{drink.price}</span>
+              </div>
             ))}
           </div>
         </div>
