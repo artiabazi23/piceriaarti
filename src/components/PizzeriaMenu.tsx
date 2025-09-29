@@ -1,9 +1,10 @@
 import { Card, CardContent } from "@/components/ui/card";
 import margheritaImage from "@/assets/margherita-pizza.jpg";
 import pepperoniImage from "@/assets/pepperoni-pizza.jpg";
-import vegetarianImage from "@/assets/vegetarian-pizza.jpg";
-import quattroStagioniImage from "@/assets/quattro-stagioni-pizza.jpg";
+import tunaImage from "@/assets/tuna-pizza.jpg";
+import capricciosaImage from "@/assets/capricciosa-pizza.jpg";
 import prosciuttoImage from "@/assets/prosciutto-pizza.jpg";
+import supremeImage from "@/assets/supreme-pizza.jpg";
 
 const menuItems = [
   {
@@ -19,7 +20,7 @@ const menuItems = [
     description: "Salcë domate, kackavall, këpurdha",
     personalPrice: "250",
     familyPrice: "500",
-    image: quattroStagioniImage
+    image: capricciosaImage
   },
   {
     name: "Me Suxhuk dhe Këpurdha",
@@ -33,7 +34,7 @@ const menuItems = [
     description: "Salcë domate, kackavall, tuna, qepë",
     personalPrice: "250",
     familyPrice: "500",
-    image: vegetarianImage
+    image: tunaImage
   },
   {
     name: "Me Proshut",
@@ -47,7 +48,7 @@ const menuItems = [
     description: "Salcë domate, kackavall, suxhuk, sallam, proshutë, këpurdha, ullinj",
     personalPrice: "300",
     familyPrice: "600",
-    image: margheritaImage,
+    image: supremeImage,
     premium: true
   }
 ];
